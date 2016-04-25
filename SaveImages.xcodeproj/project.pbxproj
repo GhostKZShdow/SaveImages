@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29B10F071CCE213000229F75 /* PhoneTextMixed-1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F051CCE213000229F75 /* PhoneTextMixed-1.PNG */; };
-		29B10F081CCE213000229F75 /* PhoneTextMixed-2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F061CCE213000229F75 /* PhoneTextMixed-2.PNG */; };
+		29B10F0C1CCE229700229F75 /* PhoneTextMixed-2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F0A1CCE229700229F75 /* PhoneTextMixed-2.PNG */; };
+		29B10F0D1CCE229700229F75 /* PhoneTextMixed-1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29B10EE71CCE1C2600229F75 /* SaveImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SaveImages.app; path = "/Users/KZ/Desktop/SaveImages/build/Debug-iphoneos/SaveImages.app"; sourceTree = "<absolute>"; };
-		29B10F051CCE213000229F75 /* PhoneTextMixed-1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-1.PNG"; sourceTree = "<group>"; };
-		29B10F061CCE213000229F75 /* PhoneTextMixed-2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-2.PNG"; sourceTree = "<group>"; };
+		29B10F091CCE228A00229F75 /* SaveImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SaveImages.app; path = "/Users/KZ/Desktop/SaveImages/build/Debug-iphoneos/SaveImages.app"; sourceTree = "<absolute>"; };
+		29B10F0A1CCE229700229F75 /* PhoneTextMixed-2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-2.PNG"; sourceTree = "<group>"; };
+		29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-1.PNG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,8 +31,8 @@
 		29B10EDE1CCE1C2600229F75 = {
 			isa = PBXGroup;
 			children = (
-				29B10F051CCE213000229F75 /* PhoneTextMixed-1.PNG */,
-				29B10F061CCE213000229F75 /* PhoneTextMixed-2.PNG */,
+				29B10F0A1CCE229700229F75 /* PhoneTextMixed-2.PNG */,
+				29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +53,7 @@
 			);
 			name = SaveImages;
 			productName = SaveImages;
-			productReference = 29B10EE71CCE1C2600229F75 /* SaveImages.app */;
+			productReference = 29B10F091CCE228A00229F75 /* SaveImages.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,8 +94,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B10F081CCE213000229F75 /* PhoneTextMixed-2.PNG in Resources */,
-				29B10F071CCE213000229F75 /* PhoneTextMixed-1.PNG in Resources */,
+				29B10F0C1CCE229700229F75 /* PhoneTextMixed-2.PNG in Resources */,
+				29B10F0D1CCE229700229F75 /* PhoneTextMixed-1.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +235,7 @@
 				29B10F001CCE1C2600229F75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
