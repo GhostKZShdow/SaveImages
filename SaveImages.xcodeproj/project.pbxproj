@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		29B10F021CCE1DB300229F75 /* IMG_0749.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F011CCE1DB300229F75 /* IMG_0749.PNG */; };
+		29B10F041CCE1F3600229F75 /* IMG_0749(0).PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F031CCE1F3600229F75 /* IMG_0749(0).PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29B10EE71CCE1C2600229F75 /* SaveImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SaveImages.app; path = "/Users/KZ/Desktop/SaveImages/build/Debug-iphoneos/SaveImages.app"; sourceTree = "<absolute>"; };
 		29B10F011CCE1DB300229F75 /* IMG_0749.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0749.PNG; sourceTree = "<group>"; };
+		29B10F031CCE1F3600229F75 /* IMG_0749(0).PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_0749(0).PNG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 			isa = PBXGroup;
 			children = (
 				29B10F011CCE1DB300229F75 /* IMG_0749.PNG */,
+				29B10F031CCE1F3600229F75 /* IMG_0749(0).PNG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B10F021CCE1DB300229F75 /* IMG_0749.PNG in Resources */,
+				29B10F041CCE1F3600229F75 /* IMG_0749(0).PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
