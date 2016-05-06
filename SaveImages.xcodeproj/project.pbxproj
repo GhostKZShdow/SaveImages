@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291D4A711CDC8476004CD970 /* KTimePicker-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 291D4A6F1CDC8476004CD970 /* KTimePicker-2.png */; };
+		291D4A721CDC8476004CD970 /* KTimePicker-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 291D4A701CDC8476004CD970 /* KTimePicker-1.png */; };
 		29B10F0C1CCE229700229F75 /* PhoneTextMixed-2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F0A1CCE229700229F75 /* PhoneTextMixed-2.PNG */; };
 		29B10F0D1CCE229700229F75 /* PhoneTextMixed-1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29B10F091CCE228A00229F75 /* SaveImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SaveImages.app; path = "/Users/KZ/Desktop/SaveImages/build/Debug-iphoneos/SaveImages.app"; sourceTree = "<absolute>"; };
+		291D4A6D1CDC83F8004CD970 /* SaveImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		291D4A6F1CDC8476004CD970 /* KTimePicker-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KTimePicker-2.png"; sourceTree = "<group>"; };
+		291D4A701CDC8476004CD970 /* KTimePicker-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KTimePicker-1.png"; sourceTree = "<group>"; };
 		29B10F0A1CCE229700229F75 /* PhoneTextMixed-2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-2.PNG"; sourceTree = "<group>"; };
 		29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-1.PNG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -28,11 +32,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29B10EDE1CCE1C2600229F75 = {
+		291D4A6E1CDC8455004CD970 /* KTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				291D4A6F1CDC8476004CD970 /* KTimePicker-2.png */,
+				291D4A701CDC8476004CD970 /* KTimePicker-1.png */,
+			);
+			name = KTimePicker;
+			sourceTree = "<group>";
+		};
+		291D4A731CDC8482004CD970 /* PhoneTextMixed */ = {
 			isa = PBXGroup;
 			children = (
 				29B10F0A1CCE229700229F75 /* PhoneTextMixed-2.PNG */,
 				29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */,
+			);
+			name = PhoneTextMixed;
+			sourceTree = "<group>";
+		};
+		29B10EDE1CCE1C2600229F75 = {
+			isa = PBXGroup;
+			children = (
+				291D4A731CDC8482004CD970 /* PhoneTextMixed */,
+				291D4A6E1CDC8455004CD970 /* KTimePicker */,
+				291D4A6D1CDC83F8004CD970 /* SaveImages.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +76,7 @@
 			);
 			name = SaveImages;
 			productName = SaveImages;
-			productReference = 29B10F091CCE228A00229F75 /* SaveImages.app */;
+			productReference = 291D4A6D1CDC83F8004CD970 /* SaveImages.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,6 +118,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B10F0C1CCE229700229F75 /* PhoneTextMixed-2.PNG in Resources */,
+				291D4A711CDC8476004CD970 /* KTimePicker-2.png in Resources */,
+				291D4A721CDC8476004CD970 /* KTimePicker-1.png in Resources */,
 				29B10F0D1CCE229700229F75 /* PhoneTextMixed-1.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
