@@ -13,6 +13,7 @@
 		29B10F0D1CCE229700229F75 /* PhoneTextMixed-1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */; };
 		4FD7E6B91E7156B300899874 /* clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7E6B71E7156B300899874 /* clicked.png */; };
 		4FD7E6BA1E7156B300899874 /* unClicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7E6B81E7156B300899874 /* unClicked.png */; };
+		4FD7E6BC1E71578700899874 /* code.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7E6BB1E71578700899874 /* code.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-1.PNG"; sourceTree = "<group>"; };
 		4FD7E6B71E7156B300899874 /* clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clicked.png; sourceTree = "<group>"; };
 		4FD7E6B81E7156B300899874 /* unClicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unClicked.png; sourceTree = "<group>"; };
+		4FD7E6BB1E71578700899874 /* code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				4FD7E6B71E7156B300899874 /* clicked.png */,
 				4FD7E6B81E7156B300899874 /* unClicked.png */,
+				4FD7E6BB1E71578700899874 /* code.png */,
 			);
 			name = WHC_KeyboardManage;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				29B10F0C1CCE229700229F75 /* PhoneTextMixed-2.PNG in Resources */,
 				291D4A711CDC8476004CD970 /* KTimePicker-2.png in Resources */,
 				4FD7E6BA1E7156B300899874 /* unClicked.png in Resources */,
+				4FD7E6BC1E71578700899874 /* code.png in Resources */,
 				291D4A721CDC8476004CD970 /* KTimePicker-1.png in Resources */,
 				4FD7E6B91E7156B300899874 /* clicked.png in Resources */,
 				29B10F0D1CCE229700229F75 /* PhoneTextMixed-1.PNG in Resources */,
