@@ -11,6 +11,8 @@
 		291D4A721CDC8476004CD970 /* KTimePicker-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 291D4A701CDC8476004CD970 /* KTimePicker-1.png */; };
 		29B10F0C1CCE229700229F75 /* PhoneTextMixed-2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F0A1CCE229700229F75 /* PhoneTextMixed-2.PNG */; };
 		29B10F0D1CCE229700229F75 /* PhoneTextMixed-1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */; };
+		4FD7E6B91E7156B300899874 /* clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7E6B71E7156B300899874 /* clicked.png */; };
+		4FD7E6BA1E7156B300899874 /* unClicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7E6B81E7156B300899874 /* unClicked.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		291D4A701CDC8476004CD970 /* KTimePicker-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KTimePicker-1.png"; sourceTree = "<group>"; };
 		29B10F0A1CCE229700229F75 /* PhoneTextMixed-2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-2.PNG"; sourceTree = "<group>"; };
 		29B10F0B1CCE229700229F75 /* PhoneTextMixed-1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneTextMixed-1.PNG"; sourceTree = "<group>"; };
+		4FD7E6B71E7156B300899874 /* clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clicked.png; sourceTree = "<group>"; };
+		4FD7E6B81E7156B300899874 /* unClicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unClicked.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,20 @@
 		29B10EDE1CCE1C2600229F75 = {
 			isa = PBXGroup;
 			children = (
+				4FD7E6B61E71568900899874 /* WHC_KeyboardManage */,
 				291D4A731CDC8482004CD970 /* PhoneTextMixed */,
 				291D4A6E1CDC8455004CD970 /* KTimePicker */,
 				291D4A6D1CDC83F8004CD970 /* SaveImages.app */,
 			);
+			sourceTree = "<group>";
+		};
+		4FD7E6B61E71568900899874 /* WHC_KeyboardManage */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7E6B71E7156B300899874 /* clicked.png */,
+				4FD7E6B81E7156B300899874 /* unClicked.png */,
+			);
+			name = WHC_KeyboardManage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +133,9 @@
 			files = (
 				29B10F0C1CCE229700229F75 /* PhoneTextMixed-2.PNG in Resources */,
 				291D4A711CDC8476004CD970 /* KTimePicker-2.png in Resources */,
+				4FD7E6BA1E7156B300899874 /* unClicked.png in Resources */,
 				291D4A721CDC8476004CD970 /* KTimePicker-1.png in Resources */,
+				4FD7E6B91E7156B300899874 /* clicked.png in Resources */,
 				29B10F0D1CCE229700229F75 /* PhoneTextMixed-1.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
